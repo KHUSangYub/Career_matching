@@ -1,0 +1,24 @@
+{
+  "exp_id": "exp-009",
+  "title": "한국어/다국어 백본 5종 비교 (1k baseline)",
+  "date": "2026-05-18",
+  "data": "1k 샘플 (user 999 + JD 1000)",
+  "eval": "5관점 500쌍 동일 라벨",
+  "backbones": {
+    "S11": "KURE-v1 (한국어 SOTA)",
+    "S12": "Qwen3-Embedding-0.6B",
+    "S13": "BGE-M3 dense",
+    "S15": "ko-sroberta-multitask"
+  },
+  "best_setup": "S12",
+  "best_model": "Qwen3-Embedding-0.6B",
+  "best_mean_ndcg10": 0.9339049972669597,
+  "s09_mean_ndcg10": 0.9655529284922622,
+  "delta_vs_s09": -0.031647931225302406,
+  "per_setup_mean_ndcg10": {
+    "S11": 0.9309644725496703,
+    "S12": 0.9339049972669597,
+    "S13": 0.9316429641095836,
+    "S15": 0.9297652902143764
+  }
+}

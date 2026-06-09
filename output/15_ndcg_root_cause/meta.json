@@ -1,0 +1,22 @@
+{
+  "experiment": "exp-021-ndcg-root-cause-analysis",
+  "date": "2026-06-05",
+  "data": {
+    "users": 999,
+    "jds": 3000
+  },
+  "H1_spearman_circular_golden": 0.768,
+  "H1_spearman_circular_arbitrary": 0.731,
+  "H1_independent_ndcg_golden_exp020": 0.9204,
+  "H1_circularity_inflation_estimate": 0.0779,
+  "H2_ndcg_pool50": 0.9922,
+  "H2_ndcg_pool500": 0.9972,
+  "H2_ndcg_pool3k": 0.9982,
+  "H3_bootstrap_n6_std": 0.0011,
+  "H3_bootstrap_n199_std": 0.0002,
+  "full_eval_ndcg": {
+    "arbitrary": 0.9355,
+    "golden": 0.9983,
+    "learned": 0.9956
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "experiment": "exp-022-saturation-deep-analysis",
+  "date": "2026-06-05",
+  "data": {
+    "users": 999,
+    "jds": 3000
+  },
+  "h_sparsity_label4_pct": {
+    "A": 2.45,
+    "B": 0.23,
+    "C": 0.69,
+    "D": 1.99,
+    "E": 1.39
+  },
+  "h_sparsity_per_user_label4_mean": {
+    "A": 73.6,
+    "B": 6.76,
+    "C": 20.55,
+    "D": 59.8,
+    "E": 41.74
+  },
+  "h_random_baseline_mean": {
+    "A": 0.0908,
+    "B": 0.1664,
+    "C": 0.1597,
+    "D": 0.0928,
+    "E": 0.0903
+  },
+  "h_random_golden_gap": {
+    "A": 0.9089,
+    "B": 0.8322,
+    "C": 0.8367,
+    "D": 0.9072,
+    "E": 0.9065
+  },
+  "h_saturation_top10_pct_label4": {
+    "A": 99.73,
+    "B": 39.76,
+    "C": 83.79,
+    "D": 99.4,
+    "E": 95.99
+  },
+  "h_deterministic_role_only": {
+    "A": 0.7592,
+    "B": 0.6503,
+    "C": 0.6508,
+    "D": 0.5326,
+    "E": 0.5444
+  },
+  "h_deterministic_industry_only": {
+    "A": 0.4326,
+    "B": 0.5191,
+    "C": 0.4749,
+    "D": 0.7878,
+    "E": 0.5731
+  },
+  "h_tie_unique_score_pct": {
+    "A": 8.65,
+    "B": 45.41,
+    "C": 7.8,
+    "D": 40.11,
+    "E": 45.0
+  },
+  "conclusion": "NDCG 0.998 = easy negatives + sparsity + deterministic signal + circularity 복합 결과",
+  "realistic_ndcg_estimate_via_independent_label": 0.92
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": "exp-019-independent-llm-eval",
+  "date": "2026-05-31",
+  "n_users": 6,
+  "n_pairs": 60,
+  "label_source": "LLM holistic judgment from text (no API, independent of rule labeler)",
+  "rule_vs_llm_spearman": 0.753935972310491,
+  "rule_llm_exact_agree": 0.5833333333333334,
+  "ndcg10_independent": {
+    "arb_E": 0.9164936120059098,
+    "gold_E": 0.9164936120059098,
+    "learn_E": 0.9057086741649397
+  },
+  "component_spearman_vs_llm": {
+    "role_match": 0.6180123378661714,
+    "hard_skill": 0.30582075914823786,
+    "industry_match": 0.29250571612943027,
+    "star_overlap": 0.31332228909429316,
+    "competency": 0.1466378695246175
+  }
+}

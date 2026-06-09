@@ -1,0 +1,39 @@
+{
+  "experiment": "exp-020-independent-eval-stats",
+  "date": "2026-05-31",
+  "n_users": 12,
+  "n_pairs": 120,
+  "mean_ndcg10": {
+    "arb_E": 0.9203686518063053,
+    "gold_E": 0.9203686518063053,
+    "learn_E": 0.9184362912788205
+  },
+  "tests": {
+    "gold_E": {
+      "mean_diff": 0.0,
+      "wilcoxon_p": 1.0,
+      "cohen_d": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "learn_E": {
+      "mean_diff": -0.0019323605274847722,
+      "wilcoxon_p": 0.9453125,
+      "cohen_d": -0.03864209735496549,
+      "ci95": [
+        -0.02989460821125067,
+        0.024020696904355477
+      ]
+    }
+  },
+  "component_spearman": {
+    "role_match": 0.6094241306453139,
+    "hard_skill": 0.38996193178619476,
+    "industry_match": 0.3310018530397524,
+    "star_overlap": 0.24668573710292788,
+    "competency": 0.1641281280828639
+  },
+  "verdict": "우위 미재현"
+}

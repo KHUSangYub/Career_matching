@@ -1,0 +1,6 @@
+perspective,role_match_only,hard_skill_only,industry_match_only,star_overlap_only,competency_only
+A,0.7592,0.3742,0.4326,0.4788,0.1997
+B,0.6503,0.507,0.5191,0.6216,0.3981
+C,0.6508,0.6001,0.4749,0.5226,0.397
+D,0.5326,0.2492,0.7878,0.447,0.223
+E,0.5444,0.4465,0.5731,0.5279,0.2116

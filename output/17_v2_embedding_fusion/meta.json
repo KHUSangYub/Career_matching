@@ -1,0 +1,70 @@
+{
+  "experiment": "exp-023-v2-embedding-fusion-head",
+  "date": "2026-06-05",
+  "env": {
+    "python": "3.12.13",
+    "torch": "2.12.0",
+    "transformers": "5.8.1",
+    "sentence_transformers": "5.5.0",
+    "device": "mps",
+    "seed": 42,
+    "date": "2026-06-05"
+  },
+  "data": {
+    "users": 999,
+    "jds": 3000,
+    "train_users": 800,
+    "held_users": 199,
+    "train_pairs": 17600
+  },
+  "cache_hashes": {
+    "user_text": "af7e60d1",
+    "jd_text": "bb4a81c7"
+  },
+  "sweep_n_configs": 16,
+  "best_config": {
+    "backbone": "qwen3",
+    "arch": "mlp",
+    "loss": "rank",
+    "wd": 0.001,
+    "ndcg_mean": 0.9878
+  },
+  "v1_vs_v2_held_out": {
+    "V1 arbitrary (rule)": {
+      "A": 0.9951,
+      "B": 0.9326,
+      "C": 0.7854,
+      "D": 0.9719,
+      "E": 0.997
+    },
+    "V1 golden (rule)": {
+      "A": 0.9998,
+      "B": 0.9983,
+      "C": 0.9967,
+      "D": 1.0,
+      "E": 0.997
+    },
+    "V2 unified (best cfg)": {
+      "A": 0.9989,
+      "B": 0.9765,
+      "C": 0.9656,
+      "D": 0.9985,
+      "E": 0.9995
+    },
+    "V2 branched (perspective)": {
+      "A": 1.0,
+      "B": 0.9967,
+      "C": 0.9959,
+      "D": 1.0,
+      "E": 0.9994
+    }
+  },
+  "branched_per_perspective": {
+    "A": 1.0,
+    "B": 0.9967,
+    "C": 0.9959,
+    "D": 1.0,
+    "E": 0.9994
+  },
+  "v2_independent_ndcg": 0.9390174068498838
+}

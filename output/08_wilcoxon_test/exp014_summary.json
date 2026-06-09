@@ -1,0 +1,16 @@
+{
+  "exp_id": "exp-014",
+  "title": "Wilcoxon 부호순위 검정 (10 setups × 5 관점)",
+  "date": "2026-05-18",
+  "n_pairs_tested": 45,
+  "n_paired_observations": 5,
+  "n_significant_p05": 0,
+  "n_significant_bonferroni": 0,
+  "best_setup": "S09",
+  "best_setup_mean_ndcg10": 0.9655529284922622,
+  "worst_setup": "S04",
+  "worst_setup_mean_ndcg10": 0.9078754367366833,
+  "S09_vs_S04_p": 0.0625,
+  "S09_vs_S04_cohens_d": -5.152841569357057,
+  "limitation": "N=5 paired observations (5 관점) — 검정력 낮음. Wilcoxon exact min p ≈ 0.0625 for N=5 → 거의 유의 불가능. exp-008(N=30) 필요"
+}

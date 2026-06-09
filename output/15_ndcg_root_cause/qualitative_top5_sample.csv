@@ -1,0 +1,16 @@
+userId,rank,job_id,role,industry,label,score,ndcg_user,title,role_match,hard_skill,industry_match,star_overlap,competency
+P0205,1,306943,finance_investment,finance_fintech,4,0.7571,1.0,[유안타증권] 자금팀 신입직원 채용,1.0,0.5,1.0,0.286,1.0
+P0205,2,311282,management_support,it_software,4,0.756,1.0,[SK텔레콤] 단기 사무보조(문서정리) 채용,1.0,0.333,1.0,0.447,1.0
+P0205,3,308921,finance_investment,retail_ecommerce,4,0.7526,1.0,[크림(KREAM)] 정산 운영 담당자 (계약직) 모집,1.0,0.385,1.0,0.378,1.0
+P0205,4,308565,management_support,finance_fintech,4,0.7427,1.0,[카카오뱅크] 인증사업 지원 어시스턴트 (체험형 인턴),1.0,0.333,1.0,0.38,1.0
+P0205,5,308983,finance_investment,finance_fintech,4,0.7424,1.0,[코리아에셋투자증권] CIT팀 신입 및 경력사원 모집(사원~대리),1.0,0.385,1.0,0.327,1.0
+P0726,1,308994,software_dev,ai_data,4,0.7591,0.9982,[네이버랩스] Data Platform Frontend Engineer (인턴십),1.0,0.231,1.0,0.565,1.0
+P0726,2,308697,data_ai_ml,ai_data,4,0.7406,0.9982,[반프] R&D / Data Engineer 채용,1.0,0.375,1.0,0.328,1.0
+P0726,3,307743,data_ai_ml,ai_data,4,0.7378,0.9982,[LG AI 연구원] Research Engineer Internship - Large Multimodal ,1.0,0.2,1.0,0.489,1.0
+P0726,4,311153,data_ai_ml,ai_data,4,0.7356,0.9982,[메가존클라우드] [신입/경력] 데이터 사이언티스트 채용 (RapidMiner 기반 머신러닝 모델링),1.0,0.211,1.0,0.468,1.0
+P0726,5,308413,data_ai_ml,ai_data,4,0.712,0.9982,[카카오] 카카오맵 학습 데이터 구축_어시스턴트,1.0,0.0,1.0,0.56,1.0
+P0616,1,311780,marketing,beauty_cosmetic,4,0.8897,1.0,[미오컴퍼니] 퍼포먼스 마케터 인턴 채용,1.0,1.0,1.0,0.448,1.0
+P0616,2,308964,marketing,retail_ecommerce,4,0.8885,1.0,[올리브인터내셔널] 미국 틱톡샵 마케팅 인턴,1.0,0.75,1.0,0.692,1.0
+P0616,3,306164,planning_strategy,beauty_cosmetic,4,0.8806,1.0,[인턴십] 사업개발 /전략,1.0,1.0,1.0,0.403,1.0
+P0616,4,311576,marketing,beauty_cosmetic,4,0.8524,1.0,[네오심플릭스]  [Dr.Reju-All] 중국향 인플루언서 마케터(인턴),1.0,0.75,1.0,0.512,1.0
+P0616,5,311187,marketing,beauty_cosmetic,4,0.8378,1.0,[넘버즈인/퓌] 글로벌 콘텐츠 마케터 (체험형 인턴),1.0,0.75,1.0,0.439,1.0

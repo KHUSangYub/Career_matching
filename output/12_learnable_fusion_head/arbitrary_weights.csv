@@ -1,0 +1,6 @@
+,role_match,hard_skill,industry_match,star_overlap,competency
+A,0.6,0.3,0.1,0.0,0.0
+B,0.2,0.3,0.0,0.5,0.0
+C,0.2,0.7,0.1,0.0,0.0
+D,0.2,0.0,0.6,0.2,0.0
+E,0.2,0.2,0.2,0.2,0.2

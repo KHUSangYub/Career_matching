@@ -1,0 +1,42 @@
+{
+  "experiment": "exp-018-learnable-fusion-head",
+  "date": "2026-05-31",
+  "seed": 42,
+  "data": {
+    "users": 999,
+    "jds": 3000,
+    "train_users": 800,
+    "held_out_users": 199,
+    "training_rows": 88000,
+    "eval_pool": "ALL 3000 JD"
+  },
+  "components": [
+    "role_match",
+    "hard_skill",
+    "industry_match",
+    "star_overlap",
+    "competency"
+  ],
+  "perspectives": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "label_source": "LLM-generated graded relevance (0-4), perspective-weighted + nonlinear interactions, no LLM API",
+  "ndcg10_mean": {
+    "arbitrary": 0.9361489270862343,
+    "golden": 0.9984010962299887,
+    "learned": 0.9958765814746708
+  },
+  "golden_minus_arbitrary": 0.06225216914375442,
+  "cosine_learned_vs_golden": {
+    "A": 0.9741758755488854,
+    "B": 0.960472233341639,
+    "C": 0.9984723727948052,
+    "D": 0.9295042035864933,
+    "E": 0.8427137517428488
+  },
+  "next": "V2 (KURE-v1/Qwen3 임베딩 + Linear head), V3 (5관점 분기) — 임베딩 사전계산 필요"
+}

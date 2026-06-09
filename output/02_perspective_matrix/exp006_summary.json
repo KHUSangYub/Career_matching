@@ -1,0 +1,36 @@
+{
+  "exp_id": "exp-006",
+  "title": "5세트 fusion 가중치 × 5관점 라벨 25셀 매트릭스",
+  "date": "2026-05-18",
+  "data_source": "raw/data/gemini_profile_outputs/{benchmark_labeled_100_X.csv, weighted_results.csv}",
+  "n_perspectives": 5,
+  "n_weight_sets": 6,
+  "n_pairs_per_perspective": 100,
+  "metrics": {
+    "diagonal_winners": {
+      "A": "A",
+      "B": "SINGLE",
+      "C": "B",
+      "D": "A",
+      "E": "D"
+    },
+    "diagonal_ndcg10": {
+      "A": 0.9793575633440395,
+      "B": 0.9322938896820434,
+      "C": 0.935921410702645,
+      "D": 0.970343665501672,
+      "E": 0.9621921485722321
+    },
+    "single_ndcg10": {
+      "A": 0.9793575633440395,
+      "B": 0.9367249910106381,
+      "C": 0.9226709526337592,
+      "D": 0.9564046605799732,
+      "E": 0.9613632205124331
+    },
+    "avg_diagonal_ndcg10": 0.9560217355605264,
+    "avg_single_ndcg10": 0.9513042776161684,
+    "delta_diagonal_vs_single": 0.004717457944357961,
+    "D_perspective_industry_effect": 0.01393900492169875
+  }
+}

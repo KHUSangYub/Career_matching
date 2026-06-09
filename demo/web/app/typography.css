@@ -1,0 +1,362 @@
+@theme {
+  /* Design System Foundation - Typography */
+
+  /* Font Family */
+  --font-family-pretendard: "Pretendard Variable", sans-serif;
+
+  /* Font Size (사용법: text-xs, text-base, text-4xl 등) */
+  --font-size-xs: 0.75rem; /* 12px */
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-body2: 0.9375rem; /* 15px */
+  --font-size-base: 1rem; /* 16px */
+  --font-size-lg: 1.125rem; /* 18px */
+  --font-size-xl: 1.25rem; /* 20px */
+  --font-size-2xl: 1.5rem; /* 24px */
+  --font-size-3xl: 1.75rem; /* 28px */
+  --font-size-4xl: 2rem; /* 32px */
+  --font-size-5xl: 2.5rem; /* 40px */
+  --font-size-6xl: 3rem; /* 48px */
+
+  /* Font Weight (사용법: font-thin, font-normal, font-bold 등) */
+  --font-weight-thin: 100;
+  --font-weight-extralight: 200;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  --font-weight-black: 900;
+
+  /* Leading (Line Height) - 기존 globals.css에서 중복되므로 여기서 통합 관리 */
+  --leading-01: 1rem; /* 16px */
+  --leading-02: 1.125rem; /* 18px */
+  --leading-03: 1.25rem; /* 20px */
+  --leading-04: 1.5rem; /* 24px */
+  --leading-05: 1.75rem; /* 28px */
+  --leading-06: 2rem; /* 32px */
+  --leading-07: 2.25rem; /* 36px */
+  --leading-08: 2.5rem; /* 40px */
+  --leading-09: 2.75rem; /* 44px */
+  --leading-10: 3.25rem; /* 52px */
+  --leading-11: 3.75rem; /* 60px */
+  --leading-12: 4.25rem; /* 68px */
+
+  /* Tracking (Letter Spacing) (사용법: tracking-01, tracking-02 등) */
+  --tracking-01: -0.00625rem; /* -0.1px */
+  --tracking-02: -0.0125rem; /* -0.2px */
+  --tracking-03: -0.01875rem; /* -0.3px */
+  --tracking-04: -0.025rem; /* -0.4px */
+  --tracking-05: -0.03125rem; /* -0.5px */
+
+  /* ===== Semantic Typography Tokens (Mobile First - 기본값) ===== */
+
+  /* Display - 대형 타이틀에 사용 */
+  --typography-display1-bold-size: var(--font-size-4xl);
+  --typography-display1-bold-weight: var(--font-weight-bold);
+  --typography-display1-bold-leading: var(--leading-09);
+  --typography-display1-bold-tracking: var(--tracking-03);
+
+  --typography-display2-semibold-size: var(--font-size-3xl);
+  --typography-display2-semibold-weight: var(--font-weight-semibold);
+  --typography-display2-semibold-leading: var(--leading-08);
+  --typography-display2-semibold-tracking: var(--tracking-02);
+
+  /* Heading - 제목에 사용 */
+  --typography-h1-semibold-size: var(--font-size-4xl);
+  --typography-h1-semibold-weight: var(--font-weight-semibold);
+  --typography-h1-semibold-leading: var(--leading-09);
+  --typography-h1-semibold-tracking: var(--tracking-03);
+
+  --typography-h2-semibold-size: var(--font-size-3xl);
+  --typography-h2-semibold-weight: var(--font-weight-semibold);
+  --typography-h2-semibold-leading: var(--leading-08);
+  --typography-h2-semibold-tracking: var(--tracking-02);
+
+  --typography-h3-semibold-size: var(--font-size-2xl);
+  --typography-h3-semibold-weight: var(--font-weight-semibold);
+  --typography-h3-semibold-leading: var(--leading-06);
+  --typography-h3-semibold-tracking: var(--tracking-02);
+
+  --typography-h4-semibold-size: var(--font-size-xl);
+  --typography-h4-semibold-weight: var(--font-weight-semibold);
+  --typography-h4-semibold-leading: var(--leading-05);
+  --typography-h4-semibold-tracking: var(--tracking-02);
+
+  --typography-h5-semibold-size: var(--font-size-lg);
+  --typography-h5-semibold-weight: var(--font-weight-semibold);
+  --typography-h5-semibold-leading: var(--leading-05);
+  --typography-h5-semibold-tracking: var(--tracking-01);
+
+  --typography-h6-semibold-size: var(--font-size-base);
+  --typography-h6-semibold-weight: var(--font-weight-semibold);
+  --typography-h6-semibold-leading: var(--leading-04);
+  --typography-h6-semibold-tracking: var(--tracking-01);
+
+  /* Body - 본문 텍스트에 사용 */
+  --typography-body1-medium-size: var(--font-size-sm);
+  --typography-body1-medium-weight: var(--font-weight-medium);
+  --typography-body1-medium-leading: var(--leading-03);
+  --typography-body1-medium-tracking: var(--tracking-01);
+
+  --typography-body1-regular-size: var(--font-size-sm);
+  --typography-body1-regular-weight: var(--font-weight-normal);
+  --typography-body1-regular-leading: var(--leading-03);
+  --typography-body1-regular-tracking: var(--tracking-01);
+
+  --typography-body2-medium-size: var(--font-size-base);
+  --typography-body2-medium-weight: var(--font-weight-medium);
+  --typography-body2-medium-leading: var(--leading-04);
+  --typography-body2-medium-tracking: var(--tracking-01);
+
+  --typography-body2-regular-size: var(--font-size-base);
+  --typography-body2-regular-weight: var(--font-weight-normal);
+  --typography-body2-regular-leading: var(--leading-04);
+  --typography-body2-regular-tracking: var(--tracking-01);
+
+  --typography-body3-medium-size: var(--font-size-sm);
+  --typography-body3-medium-weight: var(--font-weight-medium);
+  --typography-body3-medium-leading: var(--leading-03);
+  --typography-body3-medium-tracking: var(--tracking-01);
+
+  --typography-body3-regular-size: var(--font-size-sm);
+  --typography-body3-regular-weight: var(--font-weight-normal);
+  --typography-body3-regular-leading: var(--leading-03);
+  --typography-body3-regular-tracking: var(--tracking-01);
+
+  /* Label - 라벨, 캡션에 사용 */
+  --typography-label1-medium-size: var(--font-size-sm);
+  --typography-label1-medium-weight: var(--font-weight-medium);
+  --typography-label1-medium-leading: var(--leading-03);
+  --typography-label1-medium-tracking: var(--tracking-01);
+
+  --typography-label2-medium-size: var(--font-size-xs);
+  --typography-label2-medium-weight: var(--font-weight-medium);
+  --typography-label2-medium-leading: var(--leading-01);
+  --typography-label2-medium-tracking: var(--tracking-01);
+}
+
+/* ===== Breakpoint별 Typography 변수 재정의 ===== */
+/* 
+ * Breakpoint 참조: globals.css의 --breakpoint-* 변수
+ * - Tablet: var(--breakpoint-tablet) = 48rem (768px)
+ * - Desktop: var(--breakpoint-desktop) = 90rem (1440px)
+ * 
+ * 참고: CSS 변수는 미디어 쿼리에서 직접 사용할 수 없으므로 하드코딩된 값(48rem, 90rem)을 사용하되 주석으로 참조 표시
+ *     
+ */
+@media (min-width: 48rem) {
+  :root {
+    /* Display */
+    --typography-display1-bold-size: var(--font-size-5xl);
+    --typography-display1-bold-leading: var(--leading-10);
+    --typography-display1-bold-tracking: var(--tracking-04);
+
+    --typography-display2-semibold-size: var(--font-size-4xl);
+    --typography-display2-semibold-leading: var(--leading-09);
+    --typography-display2-semibold-tracking: var(--tracking-03);
+
+    /* Heading */
+    --typography-h1-semibold-size: var(--font-size-4xl);
+    --typography-h1-semibold-leading: var(--leading-09);
+
+    --typography-h2-semibold-size: var(--font-size-3xl);
+    --typography-h2-semibold-leading: var(--leading-08);
+
+    --typography-h3-semibold-size: var(--font-size-2xl);
+    --typography-h3-semibold-leading: var(--leading-06);
+
+    /* Body */
+    --typography-body1-medium-size: var(--font-size-xl);
+    --typography-body1-medium-leading: var(--leading-05);
+    --typography-body1-medium-tracking: var(--tracking-02);
+
+    --typography-body1-regular-size: var(--font-size-xl);
+    --typography-body1-regular-leading: var(--leading-05);
+    --typography-body1-regular-tracking: var(--tracking-02);
+  }
+}
+
+/* Desktop: var(--breakpoint-desktop) = 90rem (1440px) */
+@media (min-width: 64rem) {
+  :root {
+    /* Display */
+    --typography-display1-bold-size: var(--font-size-6xl);
+    --typography-display1-bold-leading: var(--leading-12);
+    --typography-display1-bold-tracking: var(--tracking-04);
+
+    --typography-display2-semibold-size: var(--font-size-5xl);
+    --typography-display2-semibold-leading: var(--leading-10);
+    --typography-display2-semibold-tracking: var(--tracking-04);
+
+    /* Heading - Desktop에서는 Mobile과 동일한 값 */
+    --typography-h1-semibold-size: var(--font-size-4xl);
+    --typography-h1-semibold-leading: var(--leading-09);
+
+    --typography-h2-semibold-size: var(--font-size-3xl);
+    --typography-h2-semibold-leading: var(--leading-08);
+
+    --typography-h3-semibold-size: var(--font-size-2xl);
+    --typography-h3-semibold-leading: var(--leading-06);
+
+    /* Body */
+    --typography-body1-medium-size: var(--font-size-2xl);
+    --typography-body1-medium-leading: var(--leading-07);
+    --typography-body1-medium-tracking: var(--tracking-02);
+
+    --typography-body1-regular-size: var(--font-size-2xl);
+    --typography-body1-regular-leading: var(--leading-07);
+    --typography-body1-regular-tracking: var(--tracking-02);
+  }
+}
+
+/* ===== Semantic Typography Utility Classes ===== */
+/* 사용법: className="display1-bold" 또는 className="md:display2-semibold" */
+
+/* Display */
+@utility display1-bold {
+  font-family: var(--typography-display1-bold-font-family, Pretendard);
+  font-size: var(--typography-display1-bold-size);
+  font-style: normal;
+  font-weight: var(--typography-display1-bold-weight);
+  line-height: var(--typography-display1-bold-leading);
+  letter-spacing: var(--typography-display1-bold-tracking);
+}
+
+@utility display2-semibold {
+  font-family: var(--typography-display2-semibold-font-family, Pretendard);
+  font-size: var(--typography-display2-semibold-size);
+  font-style: normal;
+  font-weight: var(--typography-display2-semibold-weight);
+  line-height: var(--typography-display2-semibold-leading);
+  letter-spacing: var(--typography-display2-semibold-tracking);
+}
+
+/* Heading */
+@utility h1-semibold {
+  font-family: var(--typography-h1-semibold-font-family, Pretendard);
+  font-size: var(--typography-h1-semibold-size);
+  font-style: normal;
+  font-weight: var(--typography-h1-semibold-weight);
+  line-height: var(--typography-h1-semibold-leading);
+  letter-spacing: var(--typography-h1-semibold-tracking);
+}
+
+@utility h2-semibold {
+  font-family: var(--typography-h2-semibold-font-family, Pretendard);
+  font-size: var(--typography-h2-semibold-size);
+  font-style: normal;
+  font-weight: var(--typography-h2-semibold-weight);
+  line-height: var(--typography-h2-semibold-leading);
+  letter-spacing: var(--typography-h2-semibold-tracking);
+}
+
+@utility h3-semibold {
+  font-family: var(--typography-h3-semibold-font-family, Pretendard);
+  font-size: var(--typography-h3-semibold-size);
+  font-style: normal;
+  font-weight: var(--typography-h3-semibold-weight);
+  line-height: var(--typography-h3-semibold-leading);
+  letter-spacing: var(--typography-h3-semibold-tracking);
+}
+
+@utility h4-semibold {
+  font-family: var(--typography-h4-semibold-font-family, Pretendard);
+  font-size: var(--typography-h4-semibold-size);
+  font-style: normal;
+  font-weight: var(--typography-h4-semibold-weight);
+  line-height: var(--typography-h4-semibold-leading);
+  letter-spacing: var(--typography-h4-semibold-tracking);
+}
+
+@utility h5-semibold {
+  font-family: var(--typography-h5-semibold-font-family, Pretendard);
+  font-size: var(--typography-h5-semibold-size);
+  font-style: normal;
+  font-weight: var(--typography-h5-semibold-weight);
+  line-height: var(--typography-h5-semibold-leading);
+  letter-spacing: var(--typography-h5-semibold-tracking);
+}
+
+@utility h6-semibold {
+  font-family: var(--typography-h6-semibold-font-family, Pretendard);
+  font-size: var(--typography-h6-semibold-size);
+  font-style: normal;
+  font-weight: var(--typography-h6-semibold-weight);
+  line-height: var(--typography-h6-semibold-leading);
+  letter-spacing: var(--typography-h6-semibold-tracking);
+}
+
+/* Body */
+@utility body1-medium {
+  font-family: var(--typography-body1-medium-font-family, Pretendard);
+  font-size: var(--typography-body1-medium-size);
+  font-style: normal;
+  font-weight: var(--typography-body1-medium-weight);
+  line-height: var(--typography-body1-medium-leading);
+  letter-spacing: var(--typography-body1-medium-tracking);
+}
+
+@utility body1-regular {
+  font-family: var(--typography-body1-regular-font-family, Pretendard);
+  font-size: var(--typography-body1-regular-size);
+  font-style: normal;
+  font-weight: var(--typography-body1-regular-weight);
+  line-height: var(--typography-body1-regular-leading);
+  letter-spacing: var(--typography-body1-regular-tracking);
+}
+
+@utility body2-medium {
+  font-family: var(--typography-body2-medium-font-family, Pretendard);
+  font-size: var(--typography-body2-medium-size);
+  font-style: normal;
+  font-weight: var(--typography-body2-medium-weight);
+  line-height: var(--typography-body2-medium-leading);
+  letter-spacing: var(--typography-body2-medium-tracking);
+}
+
+@utility body2-regular {
+  font-family: var(--typography-body2-regular-font-family, Pretendard);
+  font-size: var(--typography-body2-regular-size);
+  font-style: normal;
+  font-weight: var(--typography-body2-regular-weight);
+  line-height: var(--typography-body2-regular-leading);
+  letter-spacing: var(--typography-body2-regular-tracking);
+}
+
+@utility body3-medium {
+  font-family: var(--typography-body3-medium-font-family, Pretendard);
+  font-size: var(--typography-body3-medium-size);
+  font-style: normal;
+  font-weight: var(--typography-body3-medium-weight);
+  line-height: var(--typography-body3-medium-leading);
+  letter-spacing: var(--typography-body3-medium-tracking);
+}
+
+@utility body3-regular {
+  font-family: var(--typography-body3-regular-font-family, Pretendard);
+  font-size: var(--typography-body3-regular-size);
+  font-style: normal;
+  font-weight: var(--typography-body3-regular-weight);
+  line-height: var(--typography-body3-regular-leading);
+  letter-spacing: var(--typography-body3-regular-tracking);
+}
+
+/* Label */
+@utility label1-medium {
+  font-family: var(--typography-label1-medium-font-family, Pretendard);
+  font-size: var(--typography-label1-medium-size);
+  font-style: normal;
+  font-weight: var(--typography-label1-medium-weight);
+  line-height: var(--typography-label1-medium-leading);
+  letter-spacing: var(--typography-label1-medium-tracking);
+}
+
+@utility label2-medium {
+  font-family: var(--typography-label2-medium-font-family, Pretendard);
+  font-size: var(--typography-label2-medium-size);
+  font-style: normal;
+  font-weight: var(--typography-label2-medium-weight);
+  line-height: var(--typography-label2-medium-leading);
+  letter-spacing: var(--typography-label2-medium-tracking);
+}

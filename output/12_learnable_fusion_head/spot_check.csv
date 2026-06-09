@@ -1,0 +1,5 @@
+userId,job_id,role,industry,role_match,hard_skill,industry_match,star_overlap,competency,label_A,label_B,label_C,label_D,label_E
+P0001,306194,rnd,consulting_professional,1.0,0.3,0.0,0.289,1.0,3,3,3,2,2
+P0001,306204,rnd,bio_pharma,1.0,0.143,0.0,0.078,1.0,3,2,3,2,2
+P0001,306178,management_support,automotive,0.0,0.0,1.0,0.234,1.0,1,2,2,3,2
+P0001,302408,software_dev,it_software,0.0,0.0,0.0,0.162,1.0,0,1,1,0,0

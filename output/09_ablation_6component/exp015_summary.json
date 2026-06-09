@@ -1,0 +1,32 @@
+{
+  "exp_id": "exp-015",
+  "title": "Ablation Study — fusion 6요소 단일 제거",
+  "date": "2026-05-18",
+  "baseline_weights": {
+    "role_semantic": 0.35,
+    "hard_skill": 0.2,
+    "competency": 0.15,
+    "achievement": 0.1,
+    "industry": 0.1,
+    "quality_adjustment": 0.1
+  },
+  "full_ndcg10_per_perspective": {
+    "A": 0.9793575633440395,
+    "B": 0.9367249910106381,
+    "C": 0.9226709526337592,
+    "D": 0.9564046605799732,
+    "E": 0.9613632205124331
+  },
+  "full_ndcg10_mean": 0.9513042776161684,
+  "feature_contribution_mean": {
+    "industry": 0.0030716390814052863,
+    "quality_adjustment": 0.0017821229365567737,
+    "role_semantic": 0.00029622012893282257,
+    "competency": -0.0004441833593453737,
+    "achievement": -0.0008501416007726803,
+    "hard_skill": -0.003416214553669805
+  },
+  "most_important_feature": "industry",
+  "least_important_feature": "hard_skill",
+  "note": "양의 기여 = 빼면 NDCG↓, 음의 기여 = 빼면 NDCG↑ (노이즈)"
+}

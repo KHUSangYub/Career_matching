@@ -1,0 +1,111 @@
+{
+  "experiment": "exp-017-validation-grid-search",
+  "date": "2026-05-31",
+  "seed": 42,
+  "n_validation_pairs": 500,
+  "perspectives": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "component_cols": [
+    "role_match",
+    "hard_skill",
+    "industry_match",
+    "star_overlap",
+    "context"
+  ],
+  "component_labels": [
+    "role",
+    "skill",
+    "industry",
+    "star",
+    "context"
+  ],
+  "simplex_step": 0.05,
+  "n_grid_points": 10626,
+  "arbitrary_diag_mean_ndcg10": 0.9999836812561795,
+  "golden_diag_mean_ndcg10": 1.0,
+  "mean_delta": 1.6318743820420423e-05,
+  "arbitrary_weights": {
+    "A": {
+      "role": 0.6,
+      "skill": 0.3,
+      "industry": 0.1,
+      "star": 0.0,
+      "context": 0.0
+    },
+    "B": {
+      "role": 0.2,
+      "skill": 0.3,
+      "industry": 0.0,
+      "star": 0.5,
+      "context": 0.0
+    },
+    "C": {
+      "role": 0.2,
+      "skill": 0.7,
+      "industry": 0.1,
+      "star": 0.0,
+      "context": 0.0
+    },
+    "D": {
+      "role": 0.2,
+      "skill": 0.0,
+      "industry": 0.5,
+      "star": 0.0,
+      "context": 0.3
+    },
+    "E": {
+      "role": 0.2,
+      "skill": 0.2,
+      "industry": 0.2,
+      "star": 0.2,
+      "context": 0.2
+    }
+  },
+  "golden_weights": {
+    "A": {
+      "role": 0.4,
+      "skill": 0.1,
+      "industry": 0.0,
+      "star": 0.45,
+      "context": 0.05,
+      "ndcg10": 1.0
+    },
+    "B": {
+      "role": 0.2,
+      "skill": 0.30000000000000004,
+      "industry": 0.0,
+      "star": 0.5,
+      "context": 0.0,
+      "ndcg10": 1.0
+    },
+    "C": {
+      "role": 0.0,
+      "skill": 0.9,
+      "industry": 0.0,
+      "star": 0.0,
+      "context": 0.1,
+      "ndcg10": 1.0
+    },
+    "D": {
+      "role": 0.0,
+      "skill": 0.0,
+      "industry": 0.0,
+      "star": 0.0,
+      "context": 1.0,
+      "ndcg10": 1.0
+    },
+    "E": {
+      "role": 0.05,
+      "skill": 0.25,
+      "industry": 0.0,
+      "star": 0.45,
+      "context": 0.25,
+      "ndcg10": 1.0
+    }
+  }
+}
